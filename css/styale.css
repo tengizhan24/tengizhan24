@@ -1,0 +1,78 @@
+.header{
+    background-color: black;
+    color: whitesmoke;
+}
+.navbar__menu{
+    color: whitesmoke;
+}
+
+ul{
+    list-style:none;
+    width: 500px;
+
+}
+
+.btn-danger{
+    height: 45px;
+    border-radius: 0px;
+    /* margin-top: 15px; */
+}
+
+
+.main-image{
+    background: url(../img/08bcacee83e344a60e8a8fffe2af47af.jpg);
+    height: 2350px;
+    background-size: cover;
+    color: blanchedalmond;
+    
+    
+}
+
+i::before{
+    font-size:40px;
+}
+
+.comand__lits__item img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+
+}
+.contact{
+    background-color: black;
+}
+
+.services__lits__item a i{
+    color: #fff;
+}
+
+.arr{
+    width: 100%;
+    height: 600px;
+    animation:arr;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+@keyframes arr {
+    0%{
+        background: url(../img/500px-Basket_Ball_at_the_O2_Arena.jpg);
+    }
+    25%{
+        background: url(../img/detail_6a914e7761236d3745d4c1a442677690.jpg);
+    }
+    50%{
+        background: url(../img/шахматы.jpg);
+    }
+    75%{
+        background: url(../img/cтрелба.jpg);
+    }
+    100%{
+        background: url(../img/лошади.jpg);
+    }
+}
+
